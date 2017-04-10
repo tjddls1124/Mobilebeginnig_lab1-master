@@ -31,6 +31,58 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fffeed"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="태어난 년도를 입력하세요" />
+
+                    <EditText
+                        android:id="@+id/e1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="숫자를 입력하세요" />
+
+                    <Button
+                        android:id="@+id/b1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="나이계산"
+                        android:onClick="onClick"/>
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="나이를 입력하세요" />
+
+                    <EditText
+                        android:id="@+id/e2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:hint="숫자를 입력하세요"/>
+
+                    <Button
+                        android:id="@+id/b2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="태어난 해 계산"
+                        android:onClick="onClick"/>
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:padding="10dp"
                     android:background="#fffeed"
                     android:id="@+id/tab3"
@@ -182,35 +234,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />
                     </TableLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:padding="10dp"
-                    android:background="#fffeed"
-                    android:id="@+id/tab1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <EditText
-                        android:id="@+id/editText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ems="10"
-                        android:inputType="textPersonName"
-                        android:text="Name" />
-
-                    <Button
-                        android:id="@+id/button4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Button" />
-
-                    <TextView
-                        android:id="@+id/textView"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="TextView" />
                 </LinearLayout>
 
             </FrameLayout>
